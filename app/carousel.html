@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="format-detection" content="telephone=no">
+
+	<!-- components -->
+	<!-- <rv-template name="common-components"></rv-template> -->
+	<link rv-import="components/co-carousel">
+	<!-- /components -->
+
+	<!-- styles -->
+	<link rel="stylesheet" href="components/co-carousel/src/css/carousel.css"/>
+	<link rel="stylesheet" href="components/core/css/base.css">
+	<link rel="stylesheet" href="styles/carousel.css">
+	<!-- /styles -->
+</head>
+<body>
+	
+	<co-carousel class="default" model="m.myCarousel" radius="m.slider.value">
+	    <div class="carousel-item">
+	        <div class="carousel-header">Item header</div>
+	        <div class="carousel-content">Item content</div> 
+	    </div>
+	    <div class="carousel-item">
+	        <div class="carousel-header">Item header</div>
+	        <div class="carousel-content">Item content</div> 
+	    </div>
+	    <div class="carousel-item">
+	        <div class="carousel-header">Item header</div>
+	        <div class="carousel-content">Item content</div> 
+	    </div>
+	    <div class="carousel-item">
+	        <div class="carousel-header">Item header</div>
+	        <div class="carousel-content">Item content</div> 
+	    </div>
+	    <div class="carousel-item">
+	        <div class="carousel-header">Item header</div>
+	        <div class="carousel-content">Item content</div> 
+	    </div>
+	</co-carousel>
+	
+	<co-slider class="sl" model="m.slider"></co-slider>
+
+	<script src="../spa/bundle.js"></script>
+</body>
+</html>

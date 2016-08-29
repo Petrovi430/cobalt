@@ -1,0 +1,16 @@
+{
+	"myCarousel": {
+        "rotation": 30,
+        "sensitivity": 0.5,
+        "radius": 200,
+        "perspectiveOrigin": 10,
+        "isSnap": true,
+        "rotationDirection": "both",
+        "type": "horizontal"
+    },
+    "slider": {
+        "value": 200,
+        "min": 200,
+        "max": 500
+    }
+}

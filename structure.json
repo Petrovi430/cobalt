@@ -11,6 +11,10 @@
 		"first": {
 			"name": "First",
 			"template": "first.html"
+		},
+		"carousel": {
+			"name": "Carousel",
+			"template": "carousel.html"
 		}
 	},
 	"chapters": {
@@ -18,7 +22,8 @@
 			"name": "Main chapter",
 			"content": [
 				"first",
-				"awesome-slide"
+				"awesome-slide",
+				"carousel"
 			]
 		}
 	},

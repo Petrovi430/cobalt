@@ -8,6 +8,7 @@
     "co-container": "cobalt/co-container#~1.0.0",
     "co-text": "cobalt/co-text#~1.0.0",
     "co-image": "cobalt/co-image#~1.0.0",
-    "co-slider": "cobalt/co-slider#~2.0.2"
+    "co-slider": "cobalt/co-slider#~2.0.2",
+    "co-carousel": "cobalt/co-carousel#~1.0.1"
   }
 }

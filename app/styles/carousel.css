@@ -1,0 +1,17 @@
+body{
+	padding-top: 100px;
+}
+
+.slide {
+    padding: 60px;
+}
+
+.carousel-item {
+    background: #A9D5FF;
+    border-radius: 10px;
+    border: 4px solid dodgerblue;
+}
+.sl{
+	width: 300px;
+	height: 50px;
+}
