@@ -1,0 +1,11 @@
+{
+	"name": "cobalt",
+	"version": "0.0.1",
+	"cobaltVersion": "1.29.2",
+	"description": "",
+	"author": "",
+	"license": "MIT",
+	"browser": {
+		"spa-ctl": "./spa-ctl"
+}
+}

@@ -1,0 +1,38 @@
+{
+	"name": "cobalt",
+	"id": "XuhM-I7d2-6NqW-2IOi",
+	"lang": "ru",
+	"localizations": ["en"],
+	"viewportScale": "1.0",
+	"media": "",
+	"clm": "spa",
+	"isCrossChapterSwipe": false,
+	"translations": "i18n/",
+	"controllers": "controllers/",
+	"components": "components/",
+	"templates": "templates/",
+	"slides": "app/",
+	"models": "data/models/",
+	"resolution": "1024x768",
+	"orientation": "landscape",
+	"thumbnails": "media/images/common/thumbs/",
+	"modules": ["menu", "indicators"],
+	"clms": {
+		"irep": {
+			"assetFileNameTemplate": "cobalt_{structure.slide.id}",
+			"customSwipe": false,
+			"ctl": {
+				"USER": "",
+				"PASSWORD": "",
+				"FILENAME": "{settings.clms.irep.assetFileNameTemplate}.zip",
+				"Name": "{structure.slide.name}",
+				"Product_vod__c": "",
+				"EPD_Country_Code__c": "none",
+				"Description_vod__c": "{structure.slide.name}"
+			}
+		},
+		"mitouch": {
+			"assetFileNameTemplate": "cobalt_{structure.slide.id}"
+		}
+	}
+}

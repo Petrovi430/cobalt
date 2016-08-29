@@ -1,0 +1,8 @@
+{
+	 "cookiesCountSlider": {
+        "value": 20,
+        "min": 10,
+        "max": 50,
+        "step": 1
+    }
+}

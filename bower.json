@@ -1,0 +1,13 @@
+{
+  "name": "cobalt",
+  "version": "0.0.1",
+  "dependencies": {
+    "spa": "cobalt/spa#~2.5.5",
+    "core": "cobalt/core#~1.47.7",
+    "co-collection": "cobalt/co-collection#~1.0.0",
+    "co-container": "cobalt/co-container#~1.0.0",
+    "co-text": "cobalt/co-text#~1.0.0",
+    "co-image": "cobalt/co-image#~1.0.0",
+    "co-slider": "cobalt/co-slider#~2.0.2"
+  }
+}
